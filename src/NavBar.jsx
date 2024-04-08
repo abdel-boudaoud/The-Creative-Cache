@@ -1,8 +1,9 @@
+
 const NavBar = () => {
   return (
     <div className="nav-bar">
       <div>
-        <img className="logo" src="./src/assets/Logo.png" alt="" />
+        <img className="logo" src="../public/assets/Logo.png" alt="" />
 
         <p className="title">
           <span className="main">
