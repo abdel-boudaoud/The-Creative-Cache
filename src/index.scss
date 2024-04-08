@@ -1,0 +1,67 @@
+@font-face {
+    font-family: clash-display;
+    src: url(./assets/fonts/clash-display/ClashDisplaySemibold.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.nav-bar {
+    margin-top: 18px;
+    border-top: black solid 3px;
+    border-bottom: black solid 3px;
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 15px;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .title {
+        @media screen and (min-width: 640px) {
+            text-align: right;
+        }
+
+        .main {
+            font-size: 24px;
+            font-family: clash-display;
+            .creative {
+                background: linear-gradient(to bottom, #b2846c, #b269b1);
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+            .The {
+                @media screen and (max-width: 640px) {
+                    display: none;
+                }
+            }
+        }
+
+        .under-text {
+            text-align: right;
+        }
+    }
+    p {
+        margin: 0;
+    }
+    img {
+        @media screen and (max-width: 640px) {
+            display: none;
+        }
+    }
+
+    .cta {
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+        &::after {
+            content: url("./assets/Arrow\ 3.png");
+            margin-left: 5px;
+            vertical-align: -15%;
+        }
+    }
+}

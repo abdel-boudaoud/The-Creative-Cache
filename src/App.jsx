@@ -1,9 +1,9 @@
+import NavBar from "./NavBar";
+
 function App() {
   return (
     <>
-      <div>
-        <p>test</p>
-      </div>
+      <NavBar />
     </>
   );
 }
