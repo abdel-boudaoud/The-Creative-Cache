@@ -2,7 +2,7 @@
 const NavBar = () => {
   return (
     <div className="nav-bar">
-      <div>
+      <div className="container">
         <img className="logo" src="../public/assets/Logo.png" alt="" />
 
         <p className="title">
